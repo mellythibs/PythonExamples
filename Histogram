@@ -23,4 +23,4 @@ figLook = plt.xlabel('Values')
 figLook = plt.ylabel('Frequency')
 figLook = plt.title('Keyboard Inputs')
 plt.plot() #prints to console
-plt.savefig('picMeans.png') #saves the picture as a .png file
+plt.savefig('exampleHISTO.png') #saves the picture as a .png file
