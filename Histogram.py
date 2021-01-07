@@ -18,7 +18,7 @@ while(number >= 0):
    ARR = np.append(ARR, number)
    
 # creates the histogram graph using the input from the user   
-figLook = plt.hist(ARR, 100,density =1, facecolor = 'g', alpha=1)
+figLook = plt.hist(ARR, bin='auto',density =1, facecolor = 'g', alpha=1)
 figLook = plt.xlabel('Values')
 figLook = plt.ylabel('Frequency')
 figLook = plt.title('Keyboard Inputs')
